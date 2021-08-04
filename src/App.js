@@ -1,16 +1,11 @@
 import './App.css';
+import React from "react";
+import SSL from './components/SSL/SSL'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>
-          SSL Detailing
-        </h2>
-        <p style={{color: "grey"}}>
-          Coming Soon...
-        </p>
-      </header>
+      <SSL />
     </div>
   );
 }
