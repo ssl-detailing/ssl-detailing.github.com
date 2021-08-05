@@ -1,15 +1,12 @@
 import './App.css';
+import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
-          SSL Detailing
-        </h2>
-        <p style={{color: "grey"}}>
-          Coming Soon...
-        </p>
+        <LoadingScreen />
       </header>
     </div>
   );
