@@ -19,7 +19,7 @@ const SSL = () => {
                         <a href="mailto:booking@ssl-detailing.com">booking@ssl-detailing.com</a>
                     </div>
                 </div>
-                <h2>
+                <h2 className={"heading"}>
                     S.S.L. Detailing
                 </h2>
             </div>

@@ -10,6 +10,10 @@
     font-size: 35px;
 }
 
+.heading {
+    padding: 5px 0;
+}
+
 .small-contact {
     float: right;
 }
