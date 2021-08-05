@@ -1,0 +1,40 @@
+.loading {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(50%, 30%);
+}
+
+.loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.loading-text > h1 {
+    font-size: 3.5em;
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    opacity: 0;
+    animation: move-text 0.75s forwards;
+}
+
+@keyframes move-text {
+    0% { bottom: -0.2em; opacity: 1; }
+    50% { bottom: 0.2em; }
+    100% { bottom: 0; opacity: 1; }
+}
+
+.loading-text > h2 {
+    position: relative;
+    opacity: 0;
+    animation: move-text 3s forwards;
+}
+
+@keyframes move-text {
+    0% { bottom: -1em; opacity: 0; }
+    100% { bottom: 0; opacity: 1; }
+}
